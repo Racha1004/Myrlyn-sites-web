@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Dancing+Script:wght@500&display=swap');
+body
+{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	background: url('principale.jpg') no-repeat  fixed 50% 50%;
+	background-size:cover; 
+}
+#logo
+{
+	margin-top: 0;	
+	overflow: hidden;
+	background-color:rgb(220,20,60);
+	width: 100%;
+	opacity: 0.9;
+}
+#logo h1
+{
+	font-family: 'Dancing Script',sans-serif;
+	font-size: 1.9em;
+	float: left ;
+	padding-left: 10px;
+	color: black;
+}
+#salutation h1
+{
+	font-family: 'Advent Pro', sans-serif;
+	font-size: 3em;
+	display: inline;
+	line-height: 10px;
+	text-shadow: 20px;
+
+}
+#salutation h2
+{
+	font-family: 'Dancing Script', sans-serif;
+	font-size: 2em;
+
+}
+#salutation
+{
+	margin: 7%;
+	color:  black ;
+}
+/*img
+{
+	padding-left: 500px;
+	float: right;
+	opacity: 0.5;
+	border-radius: 20%;
+}*/
+/********* FORMULAIRE *******************/
+
+#formulaire
+{
+	margin-top:1%;
+}
+#formulaire input
+{
+	line-height: 5px;
+	width: 400px;
+	height: 50px;
+	background-color: black;
+	opacity: 0.5;
+	border-color: rgb(220,20,60);
+	border-radius: 40px  ;
+	color: white;
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-bottom: 16px;
+}
+button
+{
+	background-color: rgb(220,20,60);
+	border-color: transparent;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	height: 50px;
+	margin-top: 20px;
+	color: white;
+}
+button:hover
+{
+	background-color: orange;
+	transition: 0.9s ease-in-out;
+	border-radius: 50px;
+}
+/**********************************************/
+ #trait
+{
+	background-color: rgb(220,20,60);
+	height: 1px;
+	width: 500px;
+	margin : 4% auto
+}
+#formulaire a
+{
+	margin-top: 5px;
+	background-color: rgb( 236, 150, 250);
+	color: rgb(220,20,60);
+	border-style: none;
+	font-weight: bold;
+	font-family: 'Dancing Script',sans-serif;
+	font-size: 1.9em;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 10%;
+}
+#formulaire a:hover
+{
+	color: rgb( 236, 150, 250);
+	background-color: rgb(220,20,60);
+}
+#error h4
+{
+	color: red;
+	text-decoration: underline;
+
+}
+#error 
+{
+	margin-top: 20%;
+	margin-bottom: 10%;
+	text-align:center;
+	font-size: 1.9em;
+	font-weight: bold;
+	font-family: 'Dancing Script',sans-serif;
+	border-style: none;
+	text-decoration: none;
+
+}
+#error li
+{
+	padding-left: 0;
+	margin-left: 0;
+	color: black;
+}
+/******************** FOOTER******************/
+footer
+{
+	background-color: rgb(2254, 254, 226);
+	color: rgb(220,20,60);
+	padding: 2px 2%;
+	text-align: center;
+	font-family: 'Dancing Script',sans-serif;
+	font-size: 25px;
+	opacity: 0.7;
+}
+#bye
+{
+	font-family: 'Dancing Script',sans-serif;
+}
+#citation
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 30px 10%;
+}
+#premier
+{
+	display: inline-block;
+	text-align: center;
+	width: 400px;
+}
+#deuxieme
+{
+	display: inline-block;
+	text-align: center;
+	width: 400px;
+}
+ #deuxiemeTrait
+ {
+ 	height: 1px;
+ 	width: 75%;
+ 	background-color: rgb(220,20,60);
+ 	margin: 60px auto;
+ }
+ #copyrightEtTcons
+ {
+ 	display: flex;
+ 	margin-bottom: 20px;
+ 	padding: 0 10%;
+ }
+ #copyright
+ {
+ 	width: 50%;
+ 	text-align: left;
+ 	color: rgb(220,20,60);
+ }
+ #icons
+ {
+ 	width: 50%;
+ 	text-align: right;
+ }
+ #icons a
+{
+	display: inline-block;
+	padding: 0 15px;
+	font-size: 1.3em;
+	color: rgb(220,20,60);
+} 
+#icons a:hover
+{
+	transform: scale(1.5);
+	transition: 0.1s;
+}

@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Dancing+Script:wght@500&display=swap');
+body
+{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	background: url('principale.jpg') no-repeat  fixed 50% 50%;
+	-webkit-background-size: cover;
+	background-size: cover; 
+	font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+/**************************BARRE********************************/
+#logo
+{
+	text-align: left;
+	margin-top: 0;	
+	overflow: hidden;
+	background-color:rgb(220,20,60);
+	width: 100%;
+	opacity: 0.9;
+}
+
+#logo h1
+{
+	font-size: larger;
+	font-family: 'Dancing Script',sans-serif;
+	float: left ;
+	padding-left:10px; 
+	font-size: 1.9em;
+	color: black;
+}
+#logo h2 
+{
+	float: right;
+	margin-right:30px;
+	size: small;
+	color: black;
+}
+#formulaire a
+{
+	margin-top: 5px;
+	background-color: rgb( 236, 150, 250);
+	color: rgb(220,20,60);
+	border-style: none;
+	font-weight: bold;
+	font-family: 'Dancing Script',sans-serif;
+	font-size: 1.9em;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 10%;
+}
+#formulaire a:hover
+{
+	color: rgb( 236, 150, 250);
+	background-color: rgb(220,20,60);
+}
+/***********************FORMULAIRE**********************************/
+#formulaire
+{
+	position: absolute;
+	top: 58%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	background-color: rgba(0,0,0,0.5);
+	padding: 40px;
+	border-radius: 50px;
+	border:2px,solid,#fff;
+
+}
+#formulaire h2
+{
+	margin: 0;
+	padding: 0 0 0px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+}
+#formulaire input,select
+{
+	margin-bottom: 10px;
+	width: 100%;
+}
+#formulaire input[type="text"], #formulaire input[type="email"], #formulaire input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background-color: transparent;
+	outline:none;
+	height: 25px;
+	display: 16px;
+	color: #fff;
+	font-size: 1.2em;
+
+}
+::placeholder{
+	color: #fff;
+}
+#formulaire input[type="submit"], 
+#formulaire input[type="reset"]{
+	color:black;
+	border: none;
+	height: 40px;
+	outline: none;
+	font-size: 20px;
+	background-color: rgb(220,20,60);
+	cursor: pointer;
+	border-radius: 20px;
+}
+#formulaire:hover{
+	background-color: rgba(220,20,60,0.5);
+}
+#error h4
+{
+	color: red;
+	text-decoration: underline;
+
+}
+#error 
+{
+	font-size: 1.5em;
+	font-family: 'Dancing Script',sans-serif;
+	width: 250px;
+	border-style: none;
+	background-color: rgba(0,0,0,0.9) ;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 40px;
+	margin-left: 700px;
+	border-radius: 20%;
+
+}
+#error li
+{
+	padding-left: 0;
+	margin-left: 0;
+}
+#formulaire select{
+	background-color: rgba( 0, 0, 0,0.5);
+	color: rgb( 236, 150, 250);
+	appearance:none;
+	width: 100%; 
+	cursor: pointer;
+	border-radius: 20px;
+	height: auto;
+	border: 0%; 
+	margin: 0;
+	padding: .75em;
+
+}
